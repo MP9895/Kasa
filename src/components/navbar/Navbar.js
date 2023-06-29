@@ -2,7 +2,7 @@ import './navbar.scss'
 import { Link } from 'react-router-dom'
 import React from 'react';
 
-export default function Navbar() {
+function Navbar() {
 
     const currentRoute = window.location.pathname;
 
@@ -23,3 +23,5 @@ export default function Navbar() {
         </nav>
     )
 }
+
+export default Navbar;

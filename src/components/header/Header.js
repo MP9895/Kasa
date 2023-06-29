@@ -3,7 +3,7 @@ import Logo from '../../assets/logo.png'
 import Navbar from '../navbar/Navbar'
 import React from 'react';
 
-export default function Header() {
+function Header() {
 	return (
 		<header className='header'>
 			<h1>
@@ -13,3 +13,5 @@ export default function Header() {
 		</header>
 	)
 }
+
+export default Header;
