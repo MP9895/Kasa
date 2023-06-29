@@ -9,7 +9,7 @@ function Header() {
 	return (
 	<header className='header'>
 		<h1>
-		<Link to="/">
+		<Link to="/Kasa">
 			<img src={Logo} alt="kasa, location d'appartements" />
 		</Link>
 		</h1>

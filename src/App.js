@@ -9,7 +9,6 @@ function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<Home />} />
         <Route path="/Kasa" element={<Home />} />
         <Route path="/accomodation/:id" element={<Accomodation />} />
         <Route path="/about" element={<About />} />
