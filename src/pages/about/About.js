@@ -43,7 +43,7 @@ function About() {
 					)}
 				)}
 			</main>
-			<Footer fixedFooter={true} />
+			<Footer />
 		</div>
 	)
 }
